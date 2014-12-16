@@ -1,0 +1,192 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+@font-face{
+	font-family: "Bebas";
+	src: url("fonts/bebas.ttf");
+}
+
+html{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	background-image: url(images/background.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	color : black;
+}
+
+body{
+	display: block;
+	position: relative;
+	width: 960px;
+}
+
+h1{
+	font-family: "Bebas";
+	font-weight: 200;
+	font-size: 50px;
+	padding: 30px;
+	padding-left: 50px;
+}
+
+h2{
+	width: 960px;
+	text-align: center;
+	font-weight: 700;
+	font-size: 45px;
+	margin-top: 150px;
+	margin-bottom: 80px;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+h3{
+	text-align: center;
+	font-weight: 700;
+	font-size: 25px;
+	margin: 10px;
+	padding: 0px;
+}
+
+td{
+	margin: 50px;
+	padding: 15px;
+}
+
+ul{
+	vertical-align: center;
+	list-style: none;
+	position: relative;
+}
+
+li{
+	display: inline-block;
+	padding: 0px 10px;
+	margin: 0px;
+}
+
+ul li a{
+	margin: 20px;
+}
+
+#menu_principal a{
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+}
+
+#accueil{
+	margin-right: 180px;
+}
+
+.semi_bold{
+	font-weight: 700;
+}
+
+.col_gauche{
+	text-align: right;
+	margin-right: 30px;
+}
+
+.titre{
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.realisations{
+	margin-top: 30px;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
+#menu_principal{
+	width: 960px;
+	background-color: #1d1e1f;
+}
+
+#banniere{
+	margin-top: 100px;
+}
+
+#theo_blais{
+	 font-size: 25px;
+}
+
+
+#text_id{
+	text-align: left;
+	width: 960px;
+	margin-top: 20px;
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	font-size: 17px;
+}
+
+#table_theo{
+	padding-right: 100px;
+}
+
+#formation{
+	width: 960px;
+	margin-top: 20px;
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+}
+
+
+
+#experience{
+	width: 960px;
+	margin-top: 20px;
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+}
+
+#competences{
+	width: 960px;
+	margin-top: 20px;
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+}
+
+#realisations{
+	width: 960px;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+#rea{
+	width: 960px;
+	margin-top: 20px;
+}
+
+#inspi{	
+	width: 960px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+#inspi table tr td p{
+	padding-bottom: 30px; 
+}
+
+#footer{
+	color: white;
+	background-color: #1d1e1f;
+	width: 960px;
+	padding: 20px;
+	margin-top: 20px;
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+}
